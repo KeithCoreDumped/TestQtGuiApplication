@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>944</width>
+    <height>612</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>实践2</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="TestQtGuiApplication.qrc">
+    <normaloff>:/TestQtGuiApplication/Resources/L.png</normaloff>:/TestQtGuiApplication/Resources/L.png</iconset>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="labelcr">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>170</y>
+      <width>251</width>
+      <height>151</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>SizeAllCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>false</bool>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="TestQtGuiApplication.qrc">:/TestQtGuiApplication/Resources/xiaoche.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labeltx">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>27</y>
+      <width>831</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:16pt; font-weight:600; font-style:italic; text-decoration: underline; color:#ff0000;&quot;&gt;我是一行字&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>460</y>
+      <width>611</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QPushButton" name="pushButtont1">
+       <property name="styleSheet">
+        <string notr="true">font: 14pt &quot;华文宋体&quot;;</string>
+       </property>
+       <property name="text">
+        <string>文字1</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButtont2">
+       <property name="styleSheet">
+        <string notr="true">font: 14pt &quot;华文宋体&quot;;</string>
+       </property>
+       <property name="text">
+        <string>文字2</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButtonbk">
+       <property name="styleSheet">
+        <string notr="true">font: 14pt &quot;华文宋体&quot;;</string>
+       </property>
+       <property name="text">
+        <string>返回</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButtonex">
+       <property name="styleSheet">
+        <string notr="true">font: 14pt &quot;华文宋体&quot;;</string>
+       </property>
+       <property name="text">
+        <string>退出</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <zorder>labelcr</zorder>
+   <zorder>layoutWidget</zorder>
+   <zorder>labeltx</zorder>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>944</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>帮助</string>
+    </property>
+    <addaction name="actionabout"/>
+   </widget>
+   <addaction name="menu"/>
+  </widget>
+  <action name="actionabout">
+   <property name="text">
+    <string>关于</string>
+   </property>
+  </action>
+ </widget>
+ <tabstops>
+  <tabstop>pushButtont1</tabstop>
+  <tabstop>pushButtont2</tabstop>
+  <tabstop>pushButtonbk</tabstop>
+  <tabstop>pushButtonex</tabstop>
+ </tabstops>
+ <resources>
+  <include location="TestQtGuiApplication.qrc"/>
+ </resources>
+ <connections/>
+</ui>

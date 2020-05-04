@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/TestQtGuiApplication">
+        <file>Resources/xiaoche.png</file>
+        <file>Resources/ncxl.png</file>
+        <file>Resources/L.png</file>
+    </qresource>
+</RCC>
